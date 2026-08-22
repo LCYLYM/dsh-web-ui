@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "resetBudget": "N",
+  "verified": {
+    "snapshot_key": "c3cde94fa6a2055b4a5fb886d954e6820ccea3836fbcfb26d17968b4480c68fc",
+    "source_commit": "c4fa0532c26e53d2e35d91a4b9c3489ed82409ed",
+    "source_tree_digest": "6d9227669a6a76863952430c2f8c5bd9196fed2eb9b7b1b3e8287f20bd73b318",
+    "dsh": {
+      "package": "@deepseek-ai/dsh",
+      "version": "0.1.1-rc.2",
+      "integrity": "sha512-UP1UIh6q3Gme/yXRn/QL2P8IsVlv8Shpg22TRJIZPsCRWLm4CBiA1MUvXmJAfsOEETBMLAl+xWPtFw6ICsN3wg==",
+      "graph_digest": "df7a474e07c6120e1533679816a260ea4b998549118c1a21cc47ba015a8af6da"
+    },
+    "plugin": {
+      "package": "@linxin666/dsh-client-ui-skill-explorer",
+      "version": "0.2.9",
+      "tarball_sha256": "8e2104dca9e916311be1bf4656b9e849a1aca627104fb36a1c6210d19e3957ad",
+      "contract_sha256": "2aa3803eec291f4bf6768c8cffef064db4e78b727f7428f83e362266dfc7a38a"
+    },
+    "runtime": {
+      "node": {
+        "exactVersion": "24.19.0",
+        "effectiveRange": ">=24.0.0 <25.0.0",
+        "source": "fallback-node-24-lts",
+        "declarations": {}
+      },
+      "packageManager": {
+        "name": "pnpm",
+        "exactVersion": "10.33.2",
+        "source": "pnpm-lock.yaml",
+        "lockfiles": [
+          "pnpm-lock.yaml"
+        ]
+      },
+      "runner": {
+        "configuredLabel": "ubuntu-24.04",
+        "actualLabel": "GitHub Actions 1000000949",
+        "os": "Linux",
+        "arch": "x64",
+        "githubActions": true
+      }
+    },
+    "verified_at": "2026-08-22T11:30:36.274Z",
+    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/32570426593"
+  },
+  "campaigns": {}
+}
