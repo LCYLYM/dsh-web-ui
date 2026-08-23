@@ -43,5 +43,50 @@
     "verified_at": "2026-08-23T08:44:56.993Z",
     "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/32629063207"
   },
-  "campaigns": {}
+  "campaigns": {
+    "0.1.1-rc.2": {
+      "epoch": 1,
+      "history": [],
+      "lifetime_active_ms": 0,
+      "lifetime_attempts": 0,
+      "status": "BLOCKED",
+      "automatic_repair_used": true,
+      "attempts_used": 1,
+      "base_commit": "0077888e6b6fdef0aea51373f4328eb3f78e7bb7",
+      "repair_dsh_version": "0.1.1-rc.1",
+      "provider": "deepseek-official",
+      "model": "deepseek-v4-flash-vision-exp",
+      "route_fingerprint": "faaa71af208fbbaf61375c561faef30958eceba731b9fccdcceca6275619706e",
+      "input_fingerprint": "10baa2be5880844d7b54ca84f136db44b3a9ce7a2799450d1047c4d8baeb422d",
+      "usage": {
+        "inputTokens": 47633,
+        "outputTokens": 22378,
+        "cacheReadTokens": 1454848,
+        "cacheWriteTokens": 0,
+        "reasoningTokens": 16420,
+        "totalTokens": 1524859,
+        "sessionFiles": 1
+      },
+      "estimated_cny": {
+        "amount": 0.489786,
+        "band": "peak",
+        "revision": "deepseek-public-2026-08-21",
+        "known": true
+      },
+      "active_ms": 236168,
+      "converge_message_sent": false,
+      "converge_message_due": false,
+      "limits": {
+        "max_tokens": 600000,
+        "max_cny": 3,
+        "max_wall_minutes": 60,
+        "max_attempts": 2
+      },
+      "blocker": {
+        "code": "CONTRACT_PROPOSAL_INVALID",
+        "message": "repair requested a contract change without one complete fenced YAML contract"
+      },
+      "finished_at": "2026-08-23T09:12:00.703Z"
+    }
+  }
 }
