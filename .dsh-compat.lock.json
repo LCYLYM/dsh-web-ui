@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "resetBudget": "Y",
+  "resetBudget": "N",
   "verified": {
-    "snapshot_key": "3819ba0fda03c3e721e4f76dbe830ffdd064c720cb7ab96a8d62698e1776a437",
-    "source_commit": "97db37bb61c99856cfb41e1f5c8522db6e8945ea",
-    "source_tree_digest": "e76b17447ee7480e90b14a3c40276821bab4d28d755ef3afe170a3ec9aeff851",
+    "snapshot_key": "97cb79560335e8dfb630b082ae1600d3b0d79380a745348d57f3e06869deffc7",
+    "source_commit": "5a1e05ecbc79034586430d8c6a043e0a8423f56d",
+    "source_tree_digest": "226fb038d44d14a3d11ef393e4211d913ec94143b1a3a2d15c329d324571cc20",
     "dsh": {
       "package": "@deepseek-ai/dsh",
-      "version": "0.1.1-rc.1",
-      "integrity": "sha512-HVauMT0F7MWUctkxzBcu5PMFc8j0lm0kX+4IbcUsA7Oh+/xv7xhigEDP0SaSOM/kR48U/BldHbZru116DcZz0w==",
-      "graph_digest": "ea444cc8ccd82eeb3fae7c355428b08ec4a01e89289670edd4ae112a40465a28"
+      "version": "0.1.1-rc.2",
+      "integrity": "sha512-UP1UIh6q3Gme/yXRn/QL2P8IsVlv8Shpg22TRJIZPsCRWLm4CBiA1MUvXmJAfsOEETBMLAl+xWPtFw6ICsN3wg==",
+      "graph_digest": "f585d69f7d868ef19178277d2d2fc1b50649d71709ae2f1c3b63da515482ccaa"
     },
     "plugin": {
       "package": "@linxin666/dsh-client-ui-skill-explorer",
       "version": "0.2.9",
-      "tarball_sha256": "8e2104dca9e916311be1bf4656b9e849a1aca627104fb36a1c6210d19e3957ad",
+      "tarball_sha256": "e4832f84b42dc6c82f5602f7465b7ce174b06dcdd4300e627988cf937030b379",
       "contract_sha256": "3033730d7749f96166d3299bfe2f7b6b40e4e22d70ef569ce81a78c73af1e477"
     },
     "runtime": {
@@ -34,50 +34,79 @@
       },
       "runner": {
         "configuredLabel": "ubuntu-24.04",
-        "actualLabel": "GitHub Actions 1000001040",
+        "actualLabel": "GitHub Actions 1000001104",
         "os": "Linux",
         "arch": "x64",
         "githubActions": true
       }
     },
-    "verified_at": "2026-08-23T08:44:56.993Z",
-    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/32629063207"
+    "verified_at": "2026-08-23T09:25:10.241Z",
+    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/32630635364"
   },
   "campaigns": {
     "0.1.1-rc.2": {
-      "epoch": 1,
-      "history": [],
-      "lifetime_active_ms": 0,
-      "lifetime_attempts": 0,
-      "status": "BLOCKED",
+      "epoch": 2,
+      "history": [
+        {
+          "epoch": 1,
+          "status": "BLOCKED",
+          "usage": {
+            "inputTokens": 47633,
+            "outputTokens": 22378,
+            "cacheReadTokens": 1454848,
+            "cacheWriteTokens": 0,
+            "reasoningTokens": 16420,
+            "totalTokens": 1524859,
+            "sessionFiles": 1
+          },
+          "estimated_cny": {
+            "amount": 0.489786,
+            "band": "peak",
+            "revision": "deepseek-public-2026-08-21",
+            "known": true
+          },
+          "active_ms": 236168,
+          "attempts_used": 1,
+          "limits": {
+            "max_tokens": 600000,
+            "max_cny": 3,
+            "max_wall_minutes": 60,
+            "max_attempts": 2
+          },
+          "finished_at": "2026-08-23T09:12:00.703Z"
+        }
+      ],
+      "lifetime_active_ms": 236168,
+      "lifetime_attempts": 1,
+      "status": "PASS",
       "automatic_repair_used": true,
       "attempts_used": 1,
-      "base_commit": "0077888e6b6fdef0aea51373f4328eb3f78e7bb7",
-      "repair_dsh_version": "0.1.1-rc.1",
+      "base_commit": "5a1e05ecbc79034586430d8c6a043e0a8423f56d",
+      "repair_dsh_version": "0.1.1-rc.2",
       "provider": "deepseek-official",
       "model": "deepseek-v4-flash-vision-exp",
       "route_fingerprint": "faaa71af208fbbaf61375c561faef30958eceba731b9fccdcceca6275619706e",
-      "input_fingerprint": "10baa2be5880844d7b54ca84f136db44b3a9ce7a2799450d1047c4d8baeb422d",
+      "input_fingerprint": "9bff01d8cae7a6b06a7898a794bd6741cbb178f511ffcff9b75bccebb44c125c",
       "usage": {
-        "inputTokens": 47633,
-        "outputTokens": 22378,
-        "cacheReadTokens": 1454848,
+        "inputTokens": 33057,
+        "outputTokens": 21174,
+        "cacheReadTokens": 1671168,
         "cacheWriteTokens": 0,
-        "reasoningTokens": 16420,
-        "totalTokens": 1524859,
+        "reasoningTokens": 14526,
+        "totalTokens": 1725399,
         "sessionFiles": 1
       },
       "estimated_cny": {
-        "amount": 0.489786,
+        "amount": 0.456854,
         "band": "peak",
         "revision": "deepseek-public-2026-08-21",
         "known": true
       },
-      "active_ms": 236168,
+      "active_ms": 306595,
       "converge_message_sent": false,
       "converge_message_due": false,
       "limits": {
-        "max_tokens": 600000,
+        "max_tokens": 4000000,
         "max_cny": 3,
         "max_wall_minutes": 60,
         "max_attempts": 2
@@ -86,7 +115,16 @@
         "code": "CONTRACT_PROPOSAL_INVALID",
         "message": "repair requested a contract change without one complete fenced YAML contract"
       },
-      "finished_at": "2026-08-23T09:12:00.703Z"
+      "finished_at": "2026-08-23T09:25:10.797Z",
+      "lifetime_usage": {
+        "inputTokens": 47633,
+        "outputTokens": 22378,
+        "cacheReadTokens": 1454848,
+        "cacheWriteTokens": 0,
+        "reasoningTokens": 16420,
+        "totalTokens": 1524859,
+        "sessionFiles": 1
+      }
     }
   }
 }
