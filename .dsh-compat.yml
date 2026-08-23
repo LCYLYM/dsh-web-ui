@@ -1,0 +1,18 @@
+schema: 1
+watch:
+  channel: latest
+repair:
+  dsh_version: 0.1.1-rc.2
+plugin:
+  workspace: packages/dsh-skill-explorer
+  package_json: package.json
+  profile: web
+smoke:
+  contract: compatibility/dsh-smoke.yml
+gates:
+  repository:
+    - pnpm --filter @linxin666/dsh-client-ui-skill-explorer test
+    - pnpm --filter @linxin666/dsh-client-ui-skill-explorer build
+delivery:
+  mode: direct-push
+
