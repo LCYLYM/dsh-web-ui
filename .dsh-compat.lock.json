@@ -2,14 +2,14 @@
   "schema": 1,
   "resetBudget": "N",
   "verified": {
-    "snapshot_key": "97cb79560335e8dfb630b082ae1600d3b0d79380a745348d57f3e06869deffc7",
-    "source_commit": "5a1e05ecbc79034586430d8c6a043e0a8423f56d",
-    "source_tree_digest": "226fb038d44d14a3d11ef393e4211d913ec94143b1a3a2d15c329d324571cc20",
+    "snapshot_key": "07bcf571a15ba76b19ebef3a90554741a2756ccb632ed976ee5883b333bb2902",
+    "source_commit": "cbc00ff68aae9ed0ec746dbe911616386fc84d01",
+    "source_tree_digest": "190be102783dcdbf22518ab216f245258acf24da078721329dd19fa5d5a6798a",
     "dsh": {
       "package": "@deepseek-ai/dsh",
       "version": "0.1.1-rc.2",
       "integrity": "sha512-UP1UIh6q3Gme/yXRn/QL2P8IsVlv8Shpg22TRJIZPsCRWLm4CBiA1MUvXmJAfsOEETBMLAl+xWPtFw6ICsN3wg==",
-      "graph_digest": "f585d69f7d868ef19178277d2d2fc1b50649d71709ae2f1c3b63da515482ccaa"
+      "graph_digest": "d2e06350c731443286c624fd696211030f85e3d25f36c7bb4ea6d484052edcda"
     },
     "plugin": {
       "package": "@linxin666/dsh-client-ui-skill-explorer",
@@ -34,14 +34,14 @@
       },
       "runner": {
         "configuredLabel": "ubuntu-24.04",
-        "actualLabel": "GitHub Actions 1000001104",
+        "actualLabel": "GitHub Actions 1000001238",
         "os": "Linux",
         "arch": "x64",
         "githubActions": true
       }
     },
-    "verified_at": "2026-08-23T09:25:10.241Z",
-    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/32630635364"
+    "verified_at": "2026-08-27T05:51:57.998Z",
+    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/33043830083"
   },
   "campaigns": {
     "0.1.1-rc.2": {
