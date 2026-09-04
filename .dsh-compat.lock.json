@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "resetBudget": "Y",
+  "resetBudget": "N",
   "verified": {
-    "snapshot_key": "29d426fa2647a33536a1b05f2a18cd2b261280a002db105df59750789264e81a",
-    "source_commit": "3abf08e33afecf688fe7a74dbe8fbbc5842b85ae",
-    "source_tree_digest": "41f1a33ccb0dc8012c62a86006071314703d4250d510b97bb7b2caf78d6357d5",
+    "snapshot_key": "969214990ec7c9ae2704d9c2ef20dd520c5975676a866980f319346f45bd51cc",
+    "source_commit": "93507b7005cabec2989266c09b5ce7e56456ee8a",
+    "source_tree_digest": "731c4bbb7de2590f12abce37ded0b620e04249649e2c49bb979889df0859fab0",
     "dsh": {
       "package": "@deepseek-ai/dsh",
       "version": "0.1.2-rc.1",
       "integrity": "sha512-RPq48TzxvwpdT9/7W1tbhZDBMmeK+bxDrX9cqQC27Wx/LqtgJF8PSa3b3xriU8oxtvhwYmk21w2cej3uMQrnVA==",
-      "graph_digest": "6d5cde91c58158cfc95d1ced573d3986913fbfaed11eecbcd3962aa9b600bb22",
+      "graph_digest": "99ad12269dac9fb3bee0452b16aa5727e79efdb1eacd6c63a3bce3aeb384c523",
       "release": {
         "tag": "dsh-v0.1.2-rc.1",
         "version": "0.1.2-rc.1",
@@ -27,7 +27,7 @@
     },
     "runtime": {
       "node": {
-        "exactVersion": "24.19.0",
+        "exactVersion": "24.20.0",
         "effectiveRange": ">=24.0.0 <25.0.0",
         "source": "fallback-node-24-lts",
         "declarations": {}
@@ -42,14 +42,14 @@
       },
       "runner": {
         "configuredLabel": "ubuntu-24.04",
-        "actualLabel": "GitHub Actions 1000001625",
+        "actualLabel": "GitHub Actions 1000001680",
         "os": "Linux",
         "arch": "x64",
         "githubActions": true
       }
     },
-    "verified_at": "2026-09-03T12:23:46.856Z",
-    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/33754127499"
+    "verified_at": "2026-09-04T08:31:21.960Z",
+    "report_url": "https://github.com/LCYLYM/dsh-web-ui/actions/runs/33853207076"
   },
   "campaigns": {
     "0.1.1-rc.2": {
