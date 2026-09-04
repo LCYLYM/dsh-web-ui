@@ -22,7 +22,7 @@
       "dsh": ">=0.1.1-rc.1"
     },
     "compat": {
-      "maxHost": "0.1.1-rc.2"
+      "maxHost": "0.1.2-rc.1"
     },
     "bundle": {
       "patch": "./cordis.patch.yml"
